@@ -16,7 +16,9 @@ const ShipList = () => {
 
   return(
     <>
-      <h3>Starships!</h3>
+      <div class="nav">
+        <h1>STARSHIPS</h1>
+      </div>
       {starShipList.length ?
         <>
           {starShipList.map(starShip =>
