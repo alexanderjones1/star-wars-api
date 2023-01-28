@@ -19,12 +19,13 @@ const ShipList = () => {
       <div class="nav">
         <h1>STARSHIPS</h1>
       </div>
+      <div id="ship-layout">
       {starShipList.length ?
         <>
           {starShipList.map(starShip =>
-            <div key={starShip.name}>
-              <Link to='/starships' state={{starShip}}>{starShip.name}</Link>
-            </div>  
+              <div class="ships" key={starShip.name}>
+                <Link class="to-detail" to='/starships' state={{starShip}}>{starShip.name}</Link>
+              </div>  
           )}
         </>
         :
@@ -32,6 +33,7 @@ const ShipList = () => {
           <h4>Loading ships...</h4>
         </>
       }
+      </div>
     </>
   )
 }

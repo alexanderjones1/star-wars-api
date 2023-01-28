@@ -14,11 +14,16 @@
   padding: 10px;
   width: 300px;
   border-radius: 5px;
-
 }
 
-#link {
+.link {
   text-decoration: underline;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.to-detail {
+  text-decoration: none;
   color: white;
   margin-bottom: 10px;
 }
@@ -26,4 +31,24 @@
 #card {
   display: flex;
   justify-content: center;
+}
+
+.ships {
+  display: flex;
+  background-color: rgb(32, 64, 32);
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#ship-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  align-content: center;
 }

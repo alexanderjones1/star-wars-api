@@ -25,7 +25,7 @@ const ShipDetails = () => {
       <div class="card-contents">
         <h3>Name:   {starshipDetails.name}</h3>
         <h4>Model:  { starshipDetails.model }</h4>
-        <Link id='link' to={'/'}>RETURN</Link>
+        <Link class='link' to={'/'}>RETURN</Link>
       </div>
       </div>
     </>
